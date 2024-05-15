@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nicegui-starter-template"
+version = "0.1.0"
+description = "A NiceGUI Pythonic Template To Build Production Grade Applications Really Fast 🐲!"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nicegui = "^1.4.24"
+libsass = "^0.23.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
